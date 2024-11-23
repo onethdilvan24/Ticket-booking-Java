@@ -53,3 +53,26 @@ body {
     color: white;
 }
 
+
+/* Header */
+
+.masthead{
+    height: 30vh;
+  min-height: 500px;
+}
+
+.masthead .col-12{
+    color: white;
+}
+
+.masthead .col-12 .fw-light{
+    font-family: "Jomhuria", serif;
+    font-size: 80px;
+    margin-bottom: -20px;
+}
+
+.masthead .col-12 .lead{
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
