@@ -51,3 +51,177 @@ body {
     color: white;
     border: none;
 }
+
+/* Header */
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 38px;
+    font-family: "Poppins", serif;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p {
+    margin: 0 0 20px;
+    line-height: 1.7;
+}
+
+p:last-child {
+    margin: 0px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #8d8f90;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: #f85759;
+}
+
+
+
+.page-header {
+    background: url('seat.jpg')no-repeat;
+    position: relative;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.page-caption {
+    padding-top: 170px;
+    padding-bottom: 174px;
+}
+
+.page-title {
+
+    color: #fff;
+    text-align: center;
+    font-family: "Jomhuria", serif;
+    font-size: 80px;
+}
+
+.card-section {
+    position: relative;
+    bottom: 60px;
+}
+
+.card-section .container .card-block {
+    background-color: rgba(49, 56, 67, 0.672);
+    border-radius: 20px;
+}
+
+.card-block {
+    padding: 80px;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+
+
+/* dropdown */
+
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: #6b737ec2;
+    border: none;
+    height: 30px;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+
+
+/* Screen Styling */
+.screen {
+    width: 80%; /* Adjust width as needed */
+    height: 30px; /* Adjust height */
+    background: linear-gradient(to right, #9d50bb, #6e48aa); /* Screen color */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    line-height: 30px; /* Align text vertically */
+    margin: 20px auto; /* Center the screen horizontally */
+    border-radius: 50px / 15px; /* Add curvature */
+    font-size: 10px; /* Adjust font size */
+    transform: scaleY(0.8); /* Create a subtle vertical squash for a more curved effect */
+}
+
+
+
+
+/* Seat Styling */
+.seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid #999;
+}
+
+.seat.available {
+    background-color: #ccc;
+}
+
+.seat.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.seat.reserved {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.seat.unavailable {
+    background-color: #28a745;
+    cursor: not-allowed;
+}
