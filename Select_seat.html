@@ -211,6 +211,20 @@
 
 
 
+<script>
+    // JavaScript to handle seat selection
+    const seats = document.querySelectorAll('.seat.available');
+    seats.forEach(seat => {
+        seat.addEventListener('click', () => {
+            seat.classList.toggle('selected');
+        });
+    });
+
+    
+</script>
+
+<link rel="stylesheet" href="select_seat.js">
+
 
 </body>
 </html>
