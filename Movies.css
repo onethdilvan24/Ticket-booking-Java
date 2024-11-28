@@ -51,3 +51,42 @@ body {
     color: white;
 }
 
+/* Header */
+
+.masthead {
+    height: 20vh;
+    min-height: 300px;
+    color: white;
+    margin-bottom: -40px;
+  }
+
+.masthead .fw-light{
+    font-family: "Jomhuria", serif;
+    font-size: 80px;
+    margin-bottom: -20px;
+}
+
+
+/* Cards */
+
+.product-wrapper,
+.product-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.product-img img{
+    opacity: 0.5;
+}
+
+.mb-45 {
+    margin-bottom: 45px
+}
+
+.cards {
+    display: flex;
+    justify-content: center; /* Centers cards horizontally */
+    align-items: center; /* Centers cards vertically if needed */
+    flex-wrap: wrap; /* Ensures cards wrap to the next line if needed */
+    gap: 20px; /* Optional: adds spacing between cards */
+}
