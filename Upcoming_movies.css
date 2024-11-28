@@ -54,3 +54,19 @@ body {
 
 
 
+/* Background image */
+
+
+.page-header {
+    background: url('RedOne-Trailer-2-Thumbnail-en-US.jpg')no-repeat;
+    position: relative;
+    background-size: cover;
+    /* Ensure the image covers the entire section */
+    background-position: center;
+    /* Center the image */
+    height: 500px;
+    /* You can adjust this value */
+    opacity: 0.3;
+    /* Optional: for the faded effect */
+    max-width: 100%;
+}
