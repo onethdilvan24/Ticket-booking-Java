@@ -53,3 +53,87 @@ body {
 }
 
 
+/* Background image */
+
+
+.page-header {
+    background: url('RedOne-Trailer-2-Thumbnail-en-US.jpg')no-repeat;
+    position: relative;
+    background-size: cover;
+    /* Ensure the image covers the entire section */
+    background-position: center;
+    /* Center the image */
+    height: 500px;
+    /* You can adjust this value */
+    opacity: 0.3;
+    /* Optional: for the faded effect */
+    max-width: 100%;
+}
+
+
+.page-title {
+    font-size: 46px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-section {
+    position: relative;
+    bottom: 60px;
+}
+
+.card-block {
+    padding: 80px;
+    background-color: #d9d9d95e;
+    border-radius: 40px;
+    margin-top: -14%;
+    background: none;
+}
+
+.section-title {
+    margin-bottom: 60px;
+    color: white;
+}
+
+.card-section .col-xl-8 .section-title h2 {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-size: 110px;
+    margin-bottom: -20px;
+}
+
+.card-section .col-xl-8 .section-title .english {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 12px;
+}
+
+.card-section .col-xl-8 .section-title .watch {
+    margin-top: -10px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: end;
+}
+
+.card-section .col-xl-8 .section-title .infor {
+    display: inline;
+    padding-right: 50px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.card-section .row .col-xl-8 .btn{
+    background-color: #DC00D3;
+    text-decoration: none;
+}
+
+.card-section .row .col-xl-8 .btn:hover{
+    background-color: #e40cdd9e;
+}
+
