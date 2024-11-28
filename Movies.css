@@ -51,6 +51,9 @@ body {
     color: white;
 }
 
+
+
+
 /* Header */
 
 .masthead {
@@ -65,6 +68,13 @@ body {
     font-size: 80px;
     margin-bottom: -20px;
 }
+
+
+
+
+
+
+
 
 
 /* Cards */
@@ -90,3 +100,207 @@ body {
     flex-wrap: wrap; /* Ensures cards wrap to the next line if needed */
     gap: 20px; /* Optional: adds spacing between cards */
 }
+
+
+.product-action {
+    bottom: 0px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.6s ease 0s;
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.product-wrapper {
+    border-radius: 10px;
+}
+
+.product-img>span {
+    background-color: #fff;
+    box-shadow: 0 0 8px 1.7px rgba(0, 0, 0, 0.06);
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    left: 20px;
+    letter-spacing: 1px;
+    padding: 3px 12px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    background: none;
+    color: white;
+}
+
+.product-action-style {
+    background-color: #fff;
+    box-shadow: 0 0 8px 1.7px rgba(0, 0, 0, 0.06);
+    display: inline-block;
+    padding: 16px 2px 12px;
+    background: none;
+}
+
+.product-action-style>a {
+    color: #979797;
+    line-height: 1;
+    padding: 0 21px;
+    position: relative
+}
+
+.product-action-style>a.action-plus {
+    font-size: 18px
+}
+
+.product-wrapper:hover .product-action {
+    bottom: 20px;
+    opacity: 1;
+}
+
+.col-md-3 {
+    flex: 0 0 auto; /* Adjust card width percentage */
+    max-width: 250px;
+}
+
+.product-wrapper {
+    padding: 15px; /* Adds more space inside the card */
+    border-radius: 12px;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.mb-45 {
+    margin-bottom: 20px; /* Adjust spacing between cards */
+}
+
+
+@media (max-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 50%; /* Two cards per row on smaller screens */
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-3 {
+        flex: 0 0 100%; /* One card per row on very small screens */
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+/* Footer */
+
+
+.footer-dark {
+    padding: 50px ;
+    color: #f0f9ff;
+    background-color: #2228316b;
+    margin-top: 70px;
+}
+
+.footer-dark .row {
+    padding: 30px;
+}
+
+.footer-dark ul {
+    list-style: none;
+    color: white;
+
+}
+
+
+.footer-dark ul a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", serif;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.6;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.container .copy{
+    margin-top: -30px;
+    margin-bottom: -30px;
+    text-align: center;
+}
+
