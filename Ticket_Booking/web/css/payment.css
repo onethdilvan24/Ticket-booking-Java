@@ -12,7 +12,7 @@ body {
 
 .masthead{
     height: 30vh;
-  min-height: 500px;
+    min-height: 500px;
 }
 
 .masthead .col-12{
@@ -177,6 +177,23 @@ input.card {
 
 .form .row .card {
     background-color: #737373;
+}
+
+
+.form .pay input[type="text"], button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+button {
+    background: #DC00D3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #dc00d587;
 }
 
 

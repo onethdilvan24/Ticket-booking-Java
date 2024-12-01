@@ -56,7 +56,7 @@
                         <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12">
                             <!-- section-title -->
                             <div class="section-title mb-0">
-                                <img src="Red_One_poster.jpg" class="img-fluid rounded" alt="">
+                                <img src="image/Red one potrate.jpg" class="img-fluid rounded" alt="">
                             </div>
                             <!-- /.section-title -->
                         </div>
@@ -113,7 +113,7 @@
                             </p>
                         </div>
                         <div class="col text-center mt-5">
-                            <img src='red-one.jpg' title='' class="img-fluid rounded" />
+                            <img src='image/Red one potrate.jpg' title='' class="img-fluid rounded" />
                         </div>
                     </div>
                 </div>
