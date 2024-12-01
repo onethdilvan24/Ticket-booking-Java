@@ -56,7 +56,7 @@
             <div class="row cards">
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/Red one .jpg"
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/l-Gladiator2.jpeg"
                                                                                     alt=""> </a> <span class="text-center"><i class="fa fa-rupee"></i>now showing</span>
                             <div class="product-action">
                                 <div class="product-action-style"> GLADIATOR 2 </div>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-Kanguwa.jpg"
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/l-Kanguwa.jpg"
                                                                                     alt=""> </a> <span><i class="fa fa-rupee"></i> now showing</span>
                             <div class="product-action">
                                 <div class="product-action-style"> KANGUWA </div>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-Amaran.jpg"
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/l-Amaran.jpg"
                                                                                     alt=""> </a> <span><i class="fa fa-rupee"></i>now showing</span>
                             <div class="product-action">
                                 <div class="product-action-style"> AMARAN </div>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-Redone.jpg"
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/l-Redone.jpg"
                                                                                     alt=""> </a> <span><i class="fa fa-rupee"></i>now showing</span>
                             <div class="product-action">
                                 <div class="product-action-style"> REDONE</div>
@@ -104,7 +104,7 @@
             <div class="row cards">
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-lucky bhaskar.jpeg"
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/l-lucky bhaskar.jpeg"
                                                                                     alt=""> </a> <span class="text-center"><i class="fa fa-rupee"></i>now showing</span>
                             <div class="product-action">
                                 <div class="product-action-style"> LUCKY BHASKAR </div>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-Venom 3.jpg"
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/l-Venom 3.jpg"
                                                                                     alt=""> </a> <span><i class="fa fa-rupee"></i> now showing</span>
                             <div class="product-action">
                                 <div class="product-action-style"> VENOM:THE LAST DANCE </div>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-wicked.jpg"
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/l-wicked.jpg"
                                                                                     alt=""> </a> <span><i class="fa fa-rupee"></i>now showing</span>
                             <div class="product-action">
                                 <div class="product-action-style">WICKED</div>
@@ -134,7 +134,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-smile.jpg"
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="now showing/l-smile.jpg"
                                                                                     alt=""> </a> <span><i class="fa fa-rupee"></i>now showing</span>
                             <div class="product-action">
                                 <div class="product-action-style"> SMILE 2 </div>
@@ -167,8 +167,8 @@
             <div class="row cards">
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-sonic3.jpg"
-                                                                                    alt=""> </a> <span class="text-center"><i class="fa fa-rupee"></i>now showing</span>
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="coming soon/l-sonic3.jpg"
+                                                                                    alt=""> </a> <span class="text-center"><i class="fa fa-rupee"></i>COMING SOON</span>
                             <div class="product-action">
                                 <div class="product-action-style"> SONIC 3 </div>
                             </div>
@@ -177,8 +177,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-mufasa.jpeg"
-                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i> now showing</span>
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="coming soon/l-mufasa.jpeg"
+                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>COMING SOON</span>
                             <div class="product-action">
                                 <div class="product-action-style"> MUFASA THE LION KING </div>
                             </div>
@@ -187,8 +187,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-pushpa2.jpg"
-                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>now showing</span>
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="coming soon/l-pushpa2.jpg"
+                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>COMING SOON</span>
                             <div class="product-action">
                                 <div class="product-action-style"> PUSHPA 2 </div>
                             </div>
@@ -197,8 +197,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-moana2.jpg"
-                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>now showing</span>
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="coming soon/l-moana2.jpg"
+                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>COMING SOON</span>
                             <div class="product-action">
                                 <div class="product-action-style"> MOANA 2 </div>
                             </div>
@@ -215,8 +215,8 @@
             <div class="row cards">
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-Kraven.jpg"
-                                                                                    alt=""> </a> <span class="text-center"><i class="fa fa-rupee"></i>now showing</span>
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="coming soon/l-Kraven.jpg"
+                                                                                    alt=""> </a> <span class="text-center"><i class="fa fa-rupee"></i>COMING SOON</span>
                             <div class="product-action">
                                 <div class="product-action-style"> KRAVEN THE HUNTER </div>
                             </div>
@@ -225,8 +225,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-Autumn and the black jaguar.jpg"
-                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i> now showing</span>
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="coming soon/l-Autumn and the black jaguar.jpg"
+                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>COMING SOON</span>
                             <div class="product-action">
                                 <div class="product-action-style"> AUTUMN AND THE BLACK JAGUAR </div>
                             </div>
@@ -235,8 +235,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-how to train your dragon.jpg"
-                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>now showing</span>
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="coming soon/l-how to train your dragon.jpg"
+                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>COMING SOON</span>
                             <div class="product-action">
                                 <div class="product-action-style">H OW TO TRAIN YOU DRAGON </div>
                             </div>
@@ -245,8 +245,8 @@
                 </div>
                 <div class="col-md-3">
                     <div class="product-wrapper mb-45 text-center">
-                        <div class="product-img"> <a href="#" data-abc="true"> <img src="now showing/l-Caption america.jpg"
-                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>now showing</span>
+                        <div class="product-img"> <a href="Movie_profile.jsp" data-abc="true"> <img src="coming soon/l-Caption america.jpg"
+                                                                                    alt=""> </a> <span><i class="fa fa-rupee"></i>COMING SOON</span>
                             <div class="product-action">
                                 <div class="product-action-style"> CAPTION AMERICA BRAVE NEW WORLD</div>
                             </div>
