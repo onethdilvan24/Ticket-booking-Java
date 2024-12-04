@@ -137,7 +137,7 @@
             <div class="seat reserved" data-status="reserved">E2</div>
             <div class="seat reserved" data-status="reserved">E3</div>
             <div class="seat reserved" data-status="reserved">E4</div>
-            <div class="seat selected" data-status="selected">E5</div>
+            <div class="seat available" data-status="available">E5</div>
             <div class="seat available" data-status="available">E6</div>
             <div class="seat available" data-status="available">E7</div>
             <div class="seat available" data-status="available">E8</div>
@@ -157,7 +157,7 @@
             <!-- Repeat rows as needed -->
         </div>
 
-
+ 
 
         <!-- Legend -->
         <div class="legend d-flex justify-content-center mt-4">
@@ -175,43 +175,54 @@
             </div>
         </div>
     </div>
+    
 
+    <!-- Seat Count and Total Section -->
 
-
-    <div class="container">
-        <!-- Seat Count and Total Section -->
-        <a href="/Ticket_Booking/payment.jsp" class="btn2 btn-brand mx-lg-3">
-            <div class="d-flex justify-content-between align-items-center bg-dark text-light rounded-pill p-3">
-
-                <!-- Seat Number -->
-                <div class="d-flex align-items-center">
-                    <i class="bi bi-person-fill me-2"></i> <!-- Bootstrap Icon -->
-                    <span id="selected-seats">SEAT NO –</span> <!-- Dynamic seat numbers -->
-                </div>
-
-                <!-- Total Price -->
-                <div class="d-flex align-items-center">
-                    <span>Total (LKR)</span>
-                    <h5 class="mb-0 ms-2" id="total-price">0.00</h5> <!-- Dynamic total price -->
-                    <i class="bi bi-chevron-right ms-3"></i>
-                </div>
-
+    <div class="d-flex justify-content-center mt-5 h-100">
+        <div class="d-flex align-items-center align-self-center card p-3 text-center cookies">
+            <div class="mt-4">
+                <h3>Selected Seats: <span id="selectedSeats"></span></h3>
+                <h3>Total Seats Selected: <span id="seatCount">0</span></h3>
             </div>
-        </a>
-    </div>
+
+            <!-- Form to send selected seats to server -->
+            <form id="seatForm" action="SeatSelectionServlet" method="POST">
+                <input type="hidden" name="selectedSeats" id="hiddenSelectedSeats" value="">
+                <button type="submit" class="btn btn-primary mt-3">Proceed</button>
+            </form>
+        </div>
+    </div>      
+
+    
 
     <%@include file="./components/footer.jsp" %>
 
 
 
     <script>
-        // JavaScript to handle seat selection
-        const seats = document.querySelectorAll('.seat.available');
-        seats.forEach(seat => {
-            seat.addEventListener('click', () => {
-                seat.classList.toggle('selected');
-            });
+       
+        
+        // JavaScript for managing seat selection and count
+    const seats = document.querySelectorAll('.seat.available');
+    const selectedSeatsElement = document.getElementById('selectedSeats');
+    const seatCountElement = document.getElementById('seatCount');
+    const hiddenSelectedSeats = document.getElementById('hiddenSelectedSeats');
+
+    seats.forEach(seat => {
+        seat.addEventListener('click', () => {
+            seat.classList.toggle('selected');
+
+            // Get all selected seats
+            const selectedSeats = document.querySelectorAll('.seat.selected');
+            const selectedSeatNumbers = Array.from(selectedSeats).map(seat => seat.textContent);
+
+            // Update the count and hidden input field
+            seatCountElement.textContent = selectedSeatNumbers.length;
+            selectedSeatsElement.textContent = selectedSeatNumbers.join(', ');
+            hiddenSelectedSeats.value = selectedSeatNumbers.join(',');
         });
+    });
 
 
     </script>

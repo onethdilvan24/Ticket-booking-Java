@@ -30,15 +30,15 @@
         <!-- Login -->
 
         <div class="wrapper">
-            <form action="">
+            <form action="LoginServelet">
                 <h1>Login</h1>
                 <div class="input-box">
-                    <input type="text" placeholder="Username" required>
+                    <input type="text" name="email" placeholder="Username" required>
 
 
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" name="pass" placeholder="Password" required>
 
 
                 </div>

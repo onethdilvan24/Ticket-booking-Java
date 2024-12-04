@@ -47,7 +47,7 @@
                                 <h2 class="fw-bold">EAGLE</h2>
                                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam velit nisi
                                     officiis?</p>
-                                <a href="/All movies/all_movies.html" class="btn btn-primary"
+                                <a href="Movies.jsp" class="btn btn-primary"
                                    data-mdb-ripple-init>MOVIES</a>
                             </div>
                             <div class="col-md-6">
