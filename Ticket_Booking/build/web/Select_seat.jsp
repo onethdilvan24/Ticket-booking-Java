@@ -157,7 +157,7 @@
             <!-- Repeat rows as needed -->
         </div>
 
- 
+
 
         <!-- Legend -->
         <div class="legend d-flex justify-content-center mt-4">
@@ -175,39 +175,48 @@
             </div>
         </div>
     </div>
-    
+
 
     <!-- Seat Count and Total Section -->
 
     <div class="d-flex justify-content-center mt-5 h-100">
         <div class="d-flex align-items-center align-self-center card p-3 text-center cookies">
+            <!-- Ticket Price and Total Calculation -->
             <div class="mt-4">
                 <h3>Selected Seats: <span id="selectedSeats"></span></h3>
-                <h3>Total Seats Selected: <span id="seatCount">0</span></h3>
+                <h3>Total Tickets: <span id="seatCount">0</span></h3>
+                <h3>Ticket Price: <span id="ticketPrice">500</span> LKR</h3>
+                <h3>Total Price: <span id="totalPrice">0</span> LKR</h3>
             </div>
 
-            <!-- Form to send selected seats to server -->
-            <form id="seatForm" action="SeatSelectionServlet" method="POST">
-                <input type="hidden" name="selectedSeats" id="hiddenSelectedSeats" value="">
-                <button type="submit" class="btn btn-primary mt-3">Proceed</button>
-            </form>
+            <!-- Form to send data -->
+            <form id="ticketForm" action="payment.jsp" method="POST">
+    <input type="hidden" name="adultCount" id="hiddenAdultCount" value="1">
+    <input type="hidden" name="childCount" id="hiddenChildCount" value="0">
+    <input type="hidden" name="totalPrice" id="hiddenTotalPrice" value="3575">
+    <button type="submit" class="btn btn-primary mt-3">Proceed</button>
+</form>
         </div>
     </div>      
 
-    
+
 
     <%@include file="./components/footer.jsp" %>
 
 
 
     <script>
-       
-        
-        // JavaScript for managing seat selection and count
+
+
+       // JavaScript for seat selection and total price calculation
     const seats = document.querySelectorAll('.seat.available');
     const selectedSeatsElement = document.getElementById('selectedSeats');
     const seatCountElement = document.getElementById('seatCount');
+    const ticketPriceElement = document.getElementById('ticketPrice');
+    const totalPriceElement = document.getElementById('totalPrice');
     const hiddenSelectedSeats = document.getElementById('hiddenSelectedSeats');
+    const hiddenTotalPrice = document.getElementById('hiddenTotalPrice');
+    const ticketPrice = parseInt(ticketPriceElement.textContent);
 
     seats.forEach(seat => {
         seat.addEventListener('click', () => {
@@ -217,12 +226,19 @@
             const selectedSeats = document.querySelectorAll('.seat.selected');
             const selectedSeatNumbers = Array.from(selectedSeats).map(seat => seat.textContent);
 
-            // Update the count and hidden input field
-            seatCountElement.textContent = selectedSeatNumbers.length;
+            // Calculate total price
+            const totalSeats = selectedSeatNumbers.length;
+            const totalPrice = totalSeats * ticketPrice;
+
+            // Update DOM and hidden inputs
+            seatCountElement.textContent = totalSeats;
             selectedSeatsElement.textContent = selectedSeatNumbers.join(', ');
+            totalPriceElement.textContent = totalPrice;
             hiddenSelectedSeats.value = selectedSeatNumbers.join(',');
+            hiddenTotalPrice.value = totalPrice;
         });
     });
+
 
 
     </script>

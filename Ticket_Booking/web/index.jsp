@@ -51,8 +51,8 @@
                                    data-mdb-ripple-init>MOVIES</a>
                             </div>
                             <div class="col-md-6">
-                                <img src="eagle.jpg" alt="Eagle" class="img-fluid"
-                                     style="max-height: 80%; border-radius: 10px;">
+                                <img src="image/movie.png" alt="Eagle" class="img-fluid"
+                                     style="height: 110%; border-radius: 10px;">
                             </div>
                         </div>
                     </div>
